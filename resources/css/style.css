@@ -26,6 +26,7 @@ html {
 
 .image-container img {
   display: block;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -38,6 +39,8 @@ html {
 
 header {
   position: fixed;
+  z-index: 1;
+  
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
@@ -45,7 +48,7 @@ header {
 
 header .content {
   display: flex;
-  align-items: center;
+  align-content: center;
   padding: 1.875rem;
 }
 
@@ -61,11 +64,12 @@ nav li {
   padding-left: 3.5rem;
 }
 
-nav a {
+header a {
   vertical-align: bottom;
   line-height: 1.6;
   font-size: 1rem;
   color: #4a4a4a;
+  text-decoration: none;
 }
 
 header .icon {
