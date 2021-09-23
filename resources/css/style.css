@@ -224,15 +224,19 @@ header .mobile {
 #features-section {
   display: flex;
   justify-content: space-between;
-  padding: 4rem 5%;
+  padding: 4rem 5% 2.875rem;
   background-color: #f3f3f3;
 }
 
 .feature {
   flex: 1;
   padding: 2rem;
-  margin: 0px 1.25rem;
+  margin: 0px 1.19rem;
   background-color: white;
+}
+
+.feature .content {
+  padding: 2.5rem 0;
 }
 
 .feature .image-container {
